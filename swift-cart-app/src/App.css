@@ -57,3 +57,92 @@
     display: none;
   }
 }
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.desktop-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.desktop-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.icon-items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #23A6F0;
+}
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  background-color: #fff;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 0;
+}
+
+.show-menu {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .desktop-links {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .icon-items p, .icon-items img {
+    display: none;
+  }
+}
