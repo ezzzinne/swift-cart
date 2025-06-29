@@ -8,8 +8,8 @@ import Twitter from "../assets/twitter.svg";
 const Header = () => {
     return (
         <>
-            <section className="header-container">
-                <div className="first-item">
+            <header className="header-container">
+                <section className="first-item">
                     <div className="item">
                         <img src={Phone} alt="Phone icon" />
                         <p>(225) 555-0118</p>
@@ -18,11 +18,11 @@ const Header = () => {
                         <img src={Mail} alt="Mail icon" />
                         <p>michelle.rivera@example.com</p>
                     </div>
-                </div>
-                <div className="second-item">
+                </section>
+                <section className="second-item">
                     <p>Follow Us  and get a chance to win 80% off</p>
-                </div>
-                <div className="third-item">
+                </section>
+                <section className="third-item">
                     <p>Follow Us  :</p>
                     <div>
                         <img src={Instagram} alt="Instagram icon" />
@@ -30,8 +30,8 @@ const Header = () => {
                         <img src={Facebook} alt="Facebook icon" />
                         <img src={Twitter} alt="Twitter icon" />
                     </div>
-                </div>
-            </section>
+                </section>
+            </header>
         </>
     )
 }
