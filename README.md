@@ -38,6 +38,14 @@ Make sure you have Node.js and npm installed.
 npm install
 ```
 
+As well as other dependencies
+
+```bash
+npm install react-redux
+npm install react-router-dom
+npm install @reduxjs/toolkit
+```
+
 ### 3. Start the development server
 
 ```bash
