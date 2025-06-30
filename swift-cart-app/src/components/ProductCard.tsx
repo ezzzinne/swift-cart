@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Product } from "../app/productsApi";
-// import { useCart } from "../context/CartContext";
+import { useCart } from "../context/CartContext";
 import Cart from "../assets/cart-icon.svg";
 import Star from '../assets/star.svg';
 import EmptyStar from '../assets/empty-star.svg';
@@ -10,13 +10,13 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-    // const { dispatch } = useCart();
+    const { dispatch } = useCart();
     const [added, setAdded] = React.useState<boolean>(false);
 
     const handleAddToCart = () => {
-        // dispatch({ type: 'ADD_ITEM', payload: { ...product, quantity: 1 } });
+        dispatch({ type: 'ADD_ITEM', payload: { ...product, quantity: 1 } });
         setAdded(true);
-        setTimeout(() => setAdded(false), 1500);
+        setTimeout(() => setAdded(false), 1000);
     };
 
     return (
@@ -34,11 +34,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             </div>
             <div className="price-container">
                 <h5 className="price">${product.price.toFixed(2)}</h5>
-                <button className="icon-button" onClick={handleAddToCart}>
-                    <img src={Cart} alt="" />
-                </button>
-                {added && <span className="feedback">Added!</span>}
-
+                <div className="add-to-cart">
+                    <button className="icon-button" onClick={handleAddToCart}>
+                        <img src={Cart} alt="" />
+                    </button>
+                    {added && <span className="feedback">Added!</span>}
+                </div>
             </div>
             
         </div>

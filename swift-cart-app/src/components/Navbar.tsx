@@ -4,6 +4,7 @@ import Search from "../assets/search-icon.svg";
 import Heart from "../assets/heart-icon.svg";
 import Menu from "../assets/menu-icon.svg";
 import { useState } from 'react';
+import CartIcon from "./CartIcon";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
                         <p>Login / Register</p>
                     </div>
                     <img src={Search} alt="Search icon" className="icon-items" />
-                    {/* <CartIcon /> */}
+                    <CartIcon />
                     <img src={Heart} alt="Heart icon" className="icon-items" />
                     <img
                         src={Menu}

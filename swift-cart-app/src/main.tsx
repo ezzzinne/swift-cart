@@ -5,13 +5,16 @@ import "./App.css";
 import { store } from './redux/store.ts'
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { CartProvider } from './context/CartContext.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <CartProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </CartProvider>
     </Provider>
   </StrictMode>,
 )
