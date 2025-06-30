@@ -1,7 +1,6 @@
 import Toggle from "../assets/toggle.svg";
 import User from "../assets/user-icon.svg";
 import Search from "../assets/search-icon.svg";
-import Heart from "../assets/heart-icon.svg";
 import Menu from "../assets/menu-icon.svg";
 import { useState } from 'react';
 import CartIcon from "./CartIcon";
@@ -30,7 +29,6 @@ const Navbar = () => {
                     </div>
                     <img src={Search} alt="Search icon" className="icon-items" />
                     <CartIcon />
-                    <img src={Heart} alt="Heart icon" className="icon-items" />
                     <img
                         src={Menu}
                         alt="menu"
