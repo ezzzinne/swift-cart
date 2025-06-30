@@ -20,7 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     };
 
     return (
-        <div className="product-card">
+        <section className="product-card">
             <div>
               <img src={product.image} alt={product.name} className="product-image" />   
             </div>
@@ -32,7 +32,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 <img src={Star} alt="star" />
                 <img src={EmptyStar} alt="empty star" />
             </div>
-            <div className="price-container">
+            <h5 className="product-description">{product.description}</h5>
+            <section className="price-container">
                 <h5 className="price">${product.price.toFixed(2)}</h5>
                 <div className="add-to-cart">
                     <button className="icon-button" onClick={handleAddToCart}>
@@ -40,9 +41,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                     </button>
                     {added && <span className="feedback">Added!</span>}
                 </div>
-            </div>
+            </section>
             
-        </div>
+        </section>
     );
 };
 

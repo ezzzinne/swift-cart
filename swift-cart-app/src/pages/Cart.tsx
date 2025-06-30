@@ -28,7 +28,7 @@ const Cart = () => {
     };
 
     return ( 
-        <div className="cart-page">
+        <section className="cart-page">
             <div className="cart-container">
                 <h2>Order Summary</h2>
 
@@ -87,7 +87,7 @@ const Cart = () => {
                 </>
             )}
             
-        </div>
+        </section>
     )
 
 };

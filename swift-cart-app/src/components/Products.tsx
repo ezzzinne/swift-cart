@@ -29,14 +29,14 @@ const Products = () => {
 
     return (
         <>
-            <div className="product-container">
+            <section className="product-container">
                 <div className="product-description">
                     <h4>Featured Products</h4>
                     <h3>BESTSELLER PRODUCTS</h3>
                     <p>Problems trying to resolve the conflict between </p>
                 </div>
 
-                <div className="product-sortbar">
+                <section className="product-sortbar">
                     <label htmlFor="sort">Sort by:</label>
                     <select id="sort" onChange={(e) => setSortBy(e.target.value)} value={sortBy}>
                         <option value="">-- Default --</option>
@@ -45,21 +45,21 @@ const Products = () => {
                         <option value="nameAZ">Name: A to Z</option>
                         <option value="nameZA">Name: Z to A</option>
                     </select>
-                </div>
+                </section>
 
 
-                <div className="product-card-container">
+                <section className="product-card-container">
                     {sortedProducts.slice(0, visibleCount).map((product: Product) => (
                         <ProductCard key={product.id} product={product} />
                     ))}
-                </div>
+                </section>
 
                 {visibleCount < products.length && (
                     <div>
                         <button onClick={handleLoadMore} className="product-button">LOAD MORE PRODUCTS</button>
                     </div>
                 )}
-            </div>
+            </section>
         </>
     );
 };

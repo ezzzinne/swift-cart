@@ -2,80 +2,87 @@
     "products": [
         {
             "id": 1,
-            "name": "Product 1",
-            "description": "Description for Product 1",
-            "price": 29.99,
+            "name": "Gidi Time",
+            "description": "Lagos-ready. Simple, clean, and always on time.",
+            "price": 5.99,
             "image": "/product1.svg"
         },
         {
             "id": 2,
-            "name": "Product 2",
-            "description": "Description for Product 2",
-            "price": 39.99,
+            "name": "Naija Tick",
+            "description": "Quiet, sharp, and straight to the point — just like you.",
+            "price": 8.00,
             "image": "/product2.svg"
         },
         {
             "id": 3,
-            "name": "Product 3",
-            "description": "Description for Product 3",
-            "price": 49.99,
+            "name": "Ajala Pack",
+            "description": "Built for waka. Light, tough, and always ready.",
+            "price": 6.99,
             "image": "/product3.svg"
         },
         {
             "id": 4,
-            "name": "Product 4",
-            "description": "Description for Product 4",
-            "price": 59.99,
+            "name": "Ijoko Slim",
+            "description": "A sleek wooden chair that fits anywhere.",
+            "price": 7.00,
             "image": "/product4.svg"
         },
         {
             "id": 5,
-            "name": "Product 5",
-            "description": "Description for Product 5",
-            "price": 69.99,
+            "name": "Abe Ijoko",
+            "description": "Traditional look, modern comfort. Feels like home.",
+            "price": 7.00,
             "image": "/product5.svg"
         },
         {
             "id": 6,
-            "name": "Product 6",
-            "description": "Description for Product 6",
-            "price": 79.99,
+            "name": "Lowkey Sound",
+            "description": "Clean audio. Zero wahala.",
+            "price": 9.00,
             "image": "/product6.svg"
         },
         {
             "id": 7,
-            "name": "Product 7",
-            "description": "Description for Product 7",
-            "price": 89.99,
+            "name": "Calm Rest",
+            "description": "Designed to hold you steady through work or gist.",
+            "price": 13.00,
             "image": "/product7.svg"
         },
         {
             "id": 8,
-            "name": "Product 8",
-            "description": "Description for Product 8",
-            "price": 99.99,
+            "name": "Aago Lite",
+            "description": "Lightweight and portable, perfect for on-the-go.",
+            "price": 9.99,
             "image": "/product8.svg"
         },
         {
             "id": 9,
-            "name": "Product 9",
-            "description": "Description for Product 9",
-            "price": 109.99,
+            "name": "Eko Lens",
+            "description": "Clear shots in traffic, light, or laughter",
+            "price": 20.00,
             "image": "/product9.svg"
         },
         {
             "id": 10,
-            "name": "Product 10",
-            "description": "Description for Product 10",
-            "price": 119.99,
+            "name": "Zanku Beat",
+            "description": "Deep bass for afrobeats and cool calm.",
+            "price": 4.99,
             "image": "/product10.svg"
         },
         {
             "id": 11,
-            "name": "Product 11",
-            "description": "Description for Product 11",
-            "price": 129.99,
+            "name": "Shutter Chair",
+            "description": "A comfortable chair for all-day use.",
+            "price": 10.00,
             "image": "/product11.svg"
+        },
+        {
+            "id": 12,
+            "name": "SitWell Classic",
+            "description": "A classic chair for timeless comfort.",
+            "price": 12.99,
+            "image": "/product12.svg"
         }
     ]
 }

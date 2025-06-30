@@ -16,11 +16,11 @@ const Header = () => {
                     </div>
                     <div className="item">
                         <img src={Mail} alt="Mail icon" />
-                        <p>michelle.rivera@example.com</p>
+                        <p>ezinne.nwani22@gmail.com</p>
                     </div>
                 </section>
                 <section className="second-item">
-                    <p>Follow Us  and get a chance to win 80% off</p>
+                    <p>Follow Us  and get a chance to win 13.2% off</p>
                 </section>
                 <section className="third-item">
                     <p>Follow Us  :</p>
