@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const handleAddToCart = () => {
         dispatch({ type: 'ADD_ITEM', payload: { ...product, quantity: 1 } });
         setAdded(true);
-        setTimeout(() => setAdded(false), 1000);
+        setTimeout(() => setAdded(false), 1500);
     };
 
     return (
