@@ -5,14 +5,77 @@
             "name": "Product 1",
             "description": "Description for Product 1",
             "price": 29.99,
-            "image": "/image-1.svg"
+            "image": "/product1.svg"
         },
         {
             "id": 2,
             "name": "Product 2",
             "description": "Description for Product 2",
             "price": 39.99,
-            "image": "/image-2.svg"
+            "image": "/product2.svg"
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "description": "Description for Product 3",
+            "price": 49.99,
+            "image": "/product3.svg"
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "description": "Description for Product 4",
+            "price": 59.99,
+            "image": "/product4.svg"
+        },
+        {
+            "id": 5,
+            "name": "Product 5",
+            "description": "Description for Product 5",
+            "price": 69.99,
+            "image": "/product5.svg"
+        },
+        {
+            "id": 6,
+            "name": "Product 6",
+            "description": "Description for Product 6",
+            "price": 79.99,
+            "image": "/product6.svg"
+        },
+        {
+            "id": 7,
+            "name": "Product 7",
+            "description": "Description for Product 7",
+            "price": 89.99,
+            "image": "/product7.svg"
+        },
+        {
+            "id": 8,
+            "name": "Product 8",
+            "description": "Description for Product 8",
+            "price": 99.99,
+            "image": "/product8.svg"
+        },
+        {
+            "id": 9,
+            "name": "Product 9",
+            "description": "Description for Product 9",
+            "price": 109.99,
+            "image": "/product9.svg"
+        },
+        {
+            "id": 10,
+            "name": "Product 10",
+            "description": "Description for Product 10",
+            "price": 119.99,
+            "image": "/product10.svg"
+        },
+        {
+            "id": 11,
+            "name": "Product 11",
+            "description": "Description for Product 11",
+            "price": 129.99,
+            "image": "/product11.svg"
         }
     ]
 }
