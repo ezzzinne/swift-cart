@@ -72,6 +72,7 @@
 
 .desktop-links {
   display: flex;
+  gap: 20px;
   align-items: center;
 }
 
@@ -325,7 +326,7 @@
 }
 
 .services-container {
-  padding: 0 150px;
+  padding: 0 100px;
   width: 100%;
   flex: 1;
   font-family: "Montserrat", sans-serif;
@@ -363,7 +364,6 @@
 
 .services-wrapper {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
