@@ -1,4 +1,4 @@
-# 🛒 swift-cart
+# 🛒 SwiftCart
 
 This is a functional and responsive shopping cart web application built with **React** and **TypeScript**. It features a product catalog, filter/sort functionality, cart management, and coupon discounts.
 
