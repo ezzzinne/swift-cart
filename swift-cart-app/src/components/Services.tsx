@@ -7,7 +7,6 @@ const Services = () => {
         <>
             <section className="services-container">
                 <section className="services-description">
-                    <h4>Featured Products</h4>
                     <h3>THE BEST SERVICES</h3>
                     <p>Problems trying to resolve the conflict between </p>
                 </section>
